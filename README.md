@@ -9,3 +9,6 @@ $ pip3 install -r requirements.txt\
 $ python3 Vertigoscrapper.py\
 $ Enjoy:)
 # I DID NOT MAKE THIS TOOL FOR ANY ILLEGAL ACTIVITIES. I AM NOT RESPONSIBLE FOR ANY OF THEM DONE BY THE USERS OF THIS TOOL:!!!
+
+https://user-images.githubusercontent.com/93049946/158858580-4b741612-72ed-4cdd-bddd-943d8bcf7f18.mp4
+
