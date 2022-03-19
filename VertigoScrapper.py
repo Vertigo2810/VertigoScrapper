@@ -32,7 +32,7 @@ whatproxy = int(input('''\033[0;37m
 [Enter a No. (1-3) ]> '''))
 
 if whatproxy == 1:
-    out_file = "Https.txt"
+    out_file = "https.txt"
     proxies = open(out_file,'wb')
     r1 = requests.get('https://api.openproxylist.xyz/http.txt')
     proxies.write(r1.content)
@@ -46,7 +46,7 @@ if whatproxy == 1:
     
 elif whatproxy == 2:
     r1 = requests.get('https://api.openproxylist.xyz/socks4.txt')
-    out_file = "Socks4.txt"
+    out_file = "socks4.txt"
     proxies = open(out_file,'wb')
     proxies.write(r1.content)
     length = []
@@ -59,7 +59,7 @@ elif whatproxy == 2:
    
 elif whatproxy == 3:
     r1 = requests.get('https://api.openproxylist.xyz/socks5.txt')
-    out_file = "Socks5.txt"
+    out_file = "socks5.txt"
     proxies = open(out_file,'wb')
     proxies.write(r1.content)
     length = []
