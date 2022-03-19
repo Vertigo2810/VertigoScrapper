@@ -8,9 +8,6 @@ import fade
 import concurrent.futures
 import pyfiglet
 
-test_url = r'https://www.youtube.com/channel/UCR55c-mtcH86O-QvOQC_oFg?sub_confirmation=1'
-
-
 figlet = pyfiglet.figlet_format("VertigoScraper", font = "slant"  )
 text = (figlet)
 faded_text = fade.brazil(text)
